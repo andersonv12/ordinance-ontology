@@ -14,7 +14,7 @@
              function () {
                 jQuery(".markdown").each(function(el){
          jQuery(this).after(marked(jQuery(this).text())).remove()});
-                 var list = $('a[name="https://raw.githubusercontent.com/andersonv12/ordinance-ontology/main/ordinance-ontology.owl"]');
+                 var list = $('a[name="https://raw.githubusercontent.com/andersonv12/ordinance-ontology/main/ontology/ordinance-ontology.owl"]');
                  if (list.size() != 0) {
                     var element = list.first();
                     $.scrollTo(element);
